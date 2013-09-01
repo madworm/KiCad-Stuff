@@ -79,8 +79,8 @@ SIZE="$(($SCREEN_WIDTH*2/3))x$(($SCREEN_HEIGHT*2/3))!"
 #
 FILE_A=`mktemp --suffix=_git`
 FILE_B=`mktemp --suffix=_git`
-convert -colorspace gray -scale $SIZE $IN1 $FILE_A
-convert -colorspace gray -scale $SIZE $IN2 $FILE_B
+convert -colorspace gray -gamma 5 -scale $SIZE $IN1 $FILE_A
+convert -colorspace gray -gamma 5 -scale $SIZE $IN2 $FILE_B
 composite -stereo 0 $FILE_A $FILE_B $3
 
 #
