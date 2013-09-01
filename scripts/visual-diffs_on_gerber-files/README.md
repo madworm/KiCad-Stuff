@@ -12,6 +12,14 @@ This is a very basic way of getting visual diffs for gerber files using git.
    visual diffs.
 
 
+Requirements:
+=============
+
+* gerbv
+* ImageMagick
+* xwininfo
+
+
 Setup:
 ======
 
