@@ -1,0 +1,37 @@
+[color]
+       # diff = true
+       # grep = true
+       # branch = true
+       # interactive = true
+       # pager = true
+       # showbranch = true
+       # status = true
+         ui = auto
+
+[color "diff"]
+	meta = blue
+	frag = magenta
+	old = red reverse
+	new = green reverse
+	whitespace = blue reverse
+
+[color "status"]
+	added = green
+	changed = red
+	untracked = red
+
+[alias]
+	wdiff = diff --color-words
+
+[user]
+	name = Your Name
+	email = me@somewhere.com
+
+[core]
+	whitespace = indent-with-non-tab
+
+[difftool]
+	prompt = false
+
+[difftool "visdiff"]
+	cmd = /usr/local/bin/vis_diff.sh $LOCAL $REMOTE x: 
