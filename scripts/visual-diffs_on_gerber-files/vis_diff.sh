@@ -36,14 +36,11 @@ then
 
 	echo -e $GERBV_TEMPLATE > $TMPFILE0
 	gerbv -p $TMPFILE0
+
+	rm $TMPFILE0
+	rm $TMPFILE1
+	rm $TMPFILE2
 else
 	# unsupported file format
-	exit
+	diff -u $1 $2 |less
 fi
-
-#
-# cleanup
-#
-rm $TMPFILE0
-rm $TMPFILE1
-rm $TMPFILE2

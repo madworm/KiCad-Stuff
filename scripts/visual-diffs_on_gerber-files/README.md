@@ -13,6 +13,7 @@ Requirements:
 =============
 
 * gerbv
+* diff
 
 
 Setup:
@@ -23,6 +24,10 @@ Setup:
 2) Adjust as necessary!
 
 3) Copy the script to a convenient place (/usr/local/bin/) and make it executable.
+
+4) Easily integrates with the 'qgit' GUI as 'external-diff' (Ctrl+D).
+
+   Configure 'qgit' to run "xterm -e vis_diff.sh" as its 'External diff tool'. 
 
 
 Invocation from git:
