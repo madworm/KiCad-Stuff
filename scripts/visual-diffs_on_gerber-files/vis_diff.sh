@@ -88,13 +88,5 @@ composite -stereo 0 $FILE_A $FILE_B $3
 #
 rm $FILE_A
 rm $FILE_B
-
-if [[ $IN1 =~ ^/tmp/tmp\..*$ ]]
-then 
-	rm $IN1
-fi
-
-if [[ $IN2 =~ ^/tmp/tmp\..*$ ]]
-then
-	rm $IN2
-fi
+rm $IN1
+rm $IN2
