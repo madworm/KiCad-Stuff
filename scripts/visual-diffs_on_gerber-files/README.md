@@ -4,7 +4,7 @@ What is this?
 
 This is a _very basic_ way of getting visual diffs for gerber files using git.
 
-[![visual-diff_on_gerber-files](/pics/gerber-visual-diff.png)](/scripts/visual-diffs_on_gerber-files/pics/gerber-visual-diff.png)
+[![visual-diff_on_gerber-files](/scripts/visual-diffs_on_gerber-files/pics/gerber-visual-diff.png)](/scripts/visual-diffs_on_gerber-files/pics/gerber-visual-diff.png)
 
 This script uses 'gerbv' to show differences in gerber files by XOR-ing two revisions supplied by git.
 
