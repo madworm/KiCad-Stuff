@@ -20,7 +20,7 @@ fi
 #
 # do a simple check for image-(like) file formats
 #
-if [[ $1 =~ ^.*\.(g[a-z]{2}|drl|oln)$ && ! $1 =~ ^.*.gvp$ ]]
+if [[ $1 =~ ^.*\.(g[a-z]{2}|drl|oln|gm1)$ && ! $1 =~ ^.*.gvp$ ]]
 then
 	TMPFILE0=`mktemp --suffix=_git`
 	TMPFILE1=`mktemp --suffix=_git`
