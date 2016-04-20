@@ -11,6 +11,12 @@ then
 	EXIT=1
 fi
 
+if [[ $# -ne 2 ]]
+then
+	echo -e "\nUsage: $0 FILE1 FILE2" 
+	EXIT=1
+fi
+
 if [[ $EXIT -eq 1 ]]
 then
 	echo -e "\nBYE!\n"

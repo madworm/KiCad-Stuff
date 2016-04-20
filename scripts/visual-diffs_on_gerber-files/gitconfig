@@ -34,4 +34,4 @@
 	prompt = false
 
 [difftool "visdiff"]
-	cmd = /usr/local/bin/vis_diff.sh $LOCAL $REMOTE x: 
+	cmd = /usr/local/bin/vis_diff.sh $LOCAL $REMOTE
